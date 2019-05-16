@@ -1,0 +1,142 @@
+/*CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Main Css starts for About Me Page*/
+
+body{
+    background-color:#4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 22px;
+    width: 100%;
+}
+
+.custom{
+      background-color: #ffffff;
+      border-color: #cccccc;
+      padding: 40px;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    background-color: #4aaaa5;
+    width: 220px; 
+    margin-left: 100px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+}
+a{
+    color: #666666;
+    text-decoration: none;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    float: right;
+    color: #cccccc;
+    margin-right:50px;
+}
+
+li{
+    display:inline-block;
+    margin:0px;
+    color: #cccccc;
+    margin-right: 50px;
+  
+
+}
+.box{
+    background-image: url(../images/bkg.png);
+    padding: 150px; 
+    height:260px;
+}
+header{
+    background-color: #ffffff;
+    left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    border-color: #dddddd;
+    color: #4aaaa5;
+    font-weight: bold;
+    font-size: 30px;
+}
+hr { 
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    color: #666666;
+  }
+#content{
+    position: relative;
+    top: -100px;
+    left: -15px;
+    width:960px;
+    height: 350px;
+    padding: 30px;
+    float: left;
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+    color: #666666;
+}
+
+#footer{
+    position: relative;
+    top: 10px;
+    padding: 30px;
+    background-color: #666666;
+    color: #cccccc;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
