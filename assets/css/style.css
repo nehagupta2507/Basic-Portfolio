@@ -46,6 +46,7 @@ table {
 
 /*Main Css starts for About Me Page*/
 
+
 body{
     background-color:#4aaaa5;
     font-family: Arial, Helvetica, sans-serif;  
@@ -57,6 +58,8 @@ body{
       background-color: #ffffff;
       border-color: #cccccc;
       padding: 40px;
+      border: 2px;
+      border-bottom-color: #666666;
 }
 nav{
     position: fixed;
@@ -74,10 +77,11 @@ nav{
 a{
     color: #666666;
     text-decoration: none;
+    padding: 20px;
 }
 ul{
     margin:0;
-    padding:0;
+    padding:10px;
     list-style:none;
     float: right;
     color: #cccccc;
@@ -89,13 +93,17 @@ li{
     margin:0px;
     color: #cccccc;
     margin-right: 50px;
+    border-right: 1px solid #ebebeb;
   
 
 }
 .box{
     background-image: url(../images/sativa.png);
-    padding: 150px; 
-    height:270px;
+    border-top-color: #666666;
+    border-top: 1px;
+    padding: 160px; 
+    height:250px;
+    width:100%;
 }
 header{
     background-color: #ffffff;
@@ -106,6 +114,7 @@ header{
     color: #4aaaa5;
     font-weight: bold;
     font-size: 30px;
+    
 }
 hr { 
     margin-top: 5px;
@@ -115,28 +124,75 @@ hr {
     border-width: 1px;
     color: #666666;
   }
-#content{
+.content{
     position: relative;
     top: -100px;
     left: -15px;
     width:960px;
-    height: 350px;
+    height: 400px;
     padding: 30px;
     float: left;
     background-color: #ffffff;
     font-size: 18px;
     line-height: 30px;
     color: #666666;
+    overflow: auto;
 }
 
 #footer{
-    position: relative;
-    top: 10px;
+    position: fixed;
+    top: 665px;
+    left: 0px;
+    width: 1300px;
     padding: 30px;
+    margin-top: 10px;
     background-color: #666666;
     color: #cccccc;
     font-size: 10px;
     text-align: center;
     font-weight: bold;
 }
+   /* Style inputs */
+   .box{
+       width: 960px;
+       height: 270px;
+       /* float: left; */
+   }
+   input[type=text]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 8pxx;
+    resize: vertical;
+   }
+   textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    resize: vertical;
+    height:85px;
+   }
+   input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+  }
 
+  
+
+   .Flexbox{
+       float: left;
+       justify-content: space-evenly;
+   }
+
+   /* .Pic{
+    position: relative;
+    top: -70px;
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 190px;
+    text-align: center;
+   } */
